@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Roboto', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f8f8f8;
+  color: #111827; /* text-gray-900 */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --chart-1:#FF9500;
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+
+}
+
+
+/******Student & Courses***********/
+@media (min-width:320px) and (max-width:768px) {
+  .DegreeButton{
+    margin-left: -128px;
+  }
+  .recharts-surface{
+    width: 65% !important;
+    margin-left: -24px;
+  }
+  .degreecardContent{
+    width: 245px !important;
+  }
+  .recharts-responsive-container{
+    width: 121% !important;
+  }
+  .CourseDegree{
+    width: 48% !important;
+   
+  }
+  .dash{
+    margin-left:auto !important;
+    margin-right: auto !important;
+  }
+
+  .wdash{
+    width: 55% !important;
+  }
+ 
+  .experience,
+  .rewards,
+  .activity,
+  .dash{
+    width: 285px !important;
+    margin: auto;
+  }
+  .rewards{
+    margin-top: 20px !important;
+  }
+  .html5-video-player {
+   
+  }
+ 
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+  .wdash{
+    width: 61.5% !important;
+    gap:0px !important
+  }
+}
+
+
+
+
+
+
+
+
